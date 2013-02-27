@@ -5,7 +5,7 @@
     <artifactId>raiku_2.10</artifactId>
     <packaging>jar</packaging>
     <description>raiku</description>
-    <version>0.3-SNAPSHOT</version>
+    <version>0.3.1-SNAPSHOT</version>
     <name>raiku</name>
     <organization>
         <name>nl.gideondk</name>
@@ -20,20 +20,6 @@
             <groupId>org.scalaz</groupId>
             <artifactId>scalaz-core_2.10</artifactId>
             <version>7.0.0-M7</version>
-            <classifier>sources</classifier>
-            <type>src</type>
-        </dependency>
-        <dependency>
-            <groupId>org.scalaz</groupId>
-            <artifactId>scalaz-core_2.10</artifactId>
-            <version>7.0.0-M7</version>
-        </dependency>
-        <dependency>
-            <groupId>org.scalaz</groupId>
-            <artifactId>scalaz-effect_2.10</artifactId>
-            <version>7.0.0-M7</version>
-            <classifier>sources</classifier>
-            <type>src</type>
         </dependency>
         <dependency>
             <groupId>org.scalaz</groupId>
@@ -44,20 +30,6 @@
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
             <version>2.4.1</version>
-            <classifier>sources</classifier>
-            <type>src</type>
-        </dependency>
-        <dependency>
-            <groupId>com.google.protobuf</groupId>
-            <artifactId>protobuf-java</artifactId>
-            <version>2.4.1</version>
-        </dependency>
-        <dependency>
-            <groupId>io.spray</groupId>
-            <artifactId>spray-json_2.10</artifactId>
-            <version>1.2.3</version>
-            <classifier>sources</classifier>
-            <type>src</type>
         </dependency>
         <dependency>
             <groupId>io.spray</groupId>
@@ -68,32 +40,11 @@
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-actor_2.10</artifactId>
             <version>2.2-SNAPSHOT</version>
-            <classifier>sources</classifier>
-            <type>src</type>
-        </dependency>
-        <dependency>
-            <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-actor_2.10</artifactId>
-            <version>2.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>play</groupId>
             <artifactId>play-iteratees_2.10</artifactId>
             <version>2.1.0</version>
-            <classifier>sources</classifier>
-            <type>src</type>
-        </dependency>
-        <dependency>
-            <groupId>play</groupId>
-            <artifactId>play-iteratees_2.10</artifactId>
-            <version>2.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.chuusai</groupId>
-            <artifactId>shapeless_2.10.0</artifactId>
-            <version>1.2.4</version>
-            <classifier>sources</classifier>
-            <type>src</type>
         </dependency>
         <dependency>
             <groupId>com.chuusai</groupId>
