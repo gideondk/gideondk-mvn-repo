@@ -39,7 +39,7 @@
         <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-actor_2.10</artifactId>
-            <version>2.2-SNAPSHOT</version>
+            <version>2.2-M1</version>
         </dependency>
         <dependency>
             <groupId>play</groupId>
